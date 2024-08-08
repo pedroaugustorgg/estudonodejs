@@ -31,7 +31,6 @@
     - 💡 **[Dica Valiosa]** Caso não queira utilizar o nodemon, existe uma **funcionalidade nativa do node** (a partir da v18.11.0) que faz o papel do nodemon, que é o "[--watch](https://cursos.alura.com.br/forum/topico-sugestao-node-watch-ao-inves-de-nodemon-262725)". Então um comando semelhante sem a utilização do nodemon ficaria assim:
 
             node --watch arquivo.js
-- [Reserva] Próximo item
 
 ## <p id="section3"> 3. 📑 Documentação
 - **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/)
