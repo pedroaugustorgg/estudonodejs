@@ -4,7 +4,7 @@
 
 # Repositório para registro de estudo do Node.js
 ## __Frameworks__ utilizados no repositório:
-- [expressjs](https://expressjs.com/) -> Utilizado neste repositório para atualização automática do servidor em tempo real caso haja alteração no código ou em arquivos
+- [expressjs](https://expressjs.com/) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.
 
       npm i express
 - [Reserva] Próximo item
