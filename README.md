@@ -14,11 +14,14 @@
 
  <a href="#section5" style="text-decoration:none;">**5.** <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="25px"> Autor | Menção honrosa</a>
 
+<br>
+
 ## <p id="section1"> 1. <img src="https://img.icons8.com/?size=100&id=l1CHBlD15w5K&format=png&color=000000" alt="teamgroup" width="25px"> _Frameworks_ (módulos) utilizados no repositório:
 - [expressjs](https://expressjs.com/) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.
 
       npm i express
-- [Reserva] Próximo item
+
+<br>
 
 ## <p id="section2"> 2. 📦 Pacotes utilizados no repositório via [npm](https://rockcontent.com/br/blog/npm/)
 ⚠️**Observação:** Para usuários de Linux/MacOs, os pacotes precisam ser instalados com o comando "sudo" inserido antes dos comandos exemplificados aqui.
@@ -32,12 +35,18 @@
 
             node --watch arquivo.js
 
+<br>
+
 ## <p id="section3"> 3. 📑 Documentação
 - **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/)
+
+<br>
 
 ## <p id="section4"> 4. ⏯️ Cursos que motivaram a criação do repositório
 - **Node.js (v12.12.0) Básico - 2020 (PT-BR)** -> [Playlist no YouTube](https://www.youtube.com/playlist?list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9)
 - **Como sair do ZERO em Node.js em apenas UMA aula (PT-BR)** -> [Rocketseat (YouTube)](https://www.youtube.com/watch?v=hHM-hr9q4mo)
+
+<br>
 
 ## <p id="section5"> 5. <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="30px"> Autor | Menção honrosa
 
