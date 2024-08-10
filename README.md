@@ -4,11 +4,11 @@
 
 # Repositório para registro de estudo do Node.js
 ## ÍNDICE
- <a href="#section1" style="text-decoration:none;"> **1.** <img src="https://img.icons8.com/?size=100&id=l1CHBlD15w5K&format=png&color=000000" alt="teamgroup" width="25px"> _Frameworks_ (módulos) utilizados no repositório</a>
+ <a href="#section1" style="text-decoration:none;">**1.** 📄 Documentação</a>
 
  <a href="#section2" style="text-decoration:none;">**2.** 📦 Pacotes utilizados no repositório via npm</a>
 
- <a href="#section3" style="text-decoration:none;">**3.** 📄 Documentação</a>
+ <a href="#section3" style="text-decoration:none;"> **3.** <img src="https://img.icons8.com/?size=100&id=l1CHBlD15w5K&format=png&color=000000" alt="teamgroup" width="25px"> _Frameworks_ (módulos) utilizados no repositório</a>
  
  <a href="#section4" style="text-decoration:none;">**4.** ⏯️ Cursos que motivaram a criação do repositório</a>
 
@@ -16,16 +16,15 @@
 
 <br>
 
-## <p id="section1"> 1. <img src="https://img.icons8.com/?size=100&id=l1CHBlD15w5K&format=png&color=000000" alt="teamgroup" width="25px"> _Frameworks_ (módulos) utilizados no repositório:
-- [expressjs](https://expressjs.com/) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.
-
-      npm i express
+## <p id="section1"> 1. 📄 Documentação
+- **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/)
+- **npm** -> [Documentação (PT-BR)](https://rockcontent.com/br/blog/npm/)
 
 <br>
 
-## <p id="section2"> 2. 📦 Pacotes utilizados no repositório via [npm](https://rockcontent.com/br/blog/npm/)
+## <p id="section2"> 2. 📦 Pacotes utilizados no repositório via NPM
 ⚠️ **Observação:** Para usuários de Linux/MacOs, os pacotes precisam ser instalados com o comando "sudo" inserido antes dos comandos exemplificados aqui.
-- [nodemon](https://nodemon.io) -> Utilizado para atualização automática em caso de alteração no código ou em arquivos rodando no servidor em tempo real.
+- **[nodemon](https://nodemon.io)** -> Utilizado para atualização automática em caso de alteração no código ou em arquivos rodando no servidor em tempo real.
 
       npm install -g nodemon
   - Executando o nodemon:
@@ -35,10 +34,14 @@
 
             node --watch arquivo.js
 
+- **[BodyParser](https://www.npmjs.com/package/body-parser)** -> Utilizado para converter um _body_ da requisição de uma página HTML (um formulário por exemplo) em um JSON.
+
 <br>
 
-## <p id="section3"> 3. 📄 Documentação
-- **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/)
+## <p id="section3"> 3. <img src="https://img.icons8.com/?size=100&id=l1CHBlD15w5K&format=png&color=000000" alt="teamgroup" width="25px"> _Frameworks_ (módulos) utilizados no repositório:
+- [expressjs](https://expressjs.com/) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.
+
+      npm i express
 
 <br>
 
