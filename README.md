@@ -53,6 +53,7 @@
 |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/80770771? v=4" width=115><br><sub>Pedro Guedes</sub>](https://github.com/pedroaugustorgg) |
 | :---: |
 
-## 📗 Menção honrosa - Fontes de inspiração
+## 📗 Menções honrosas - Fontes de inspiração
 
- - **📋 [estudopython](https://github.com/pedroaugustorgg/estudopython):** Modelo de documentação inspirada
+ - **📋 [EstudoGit](https://github.com/pedroaugustorgg/EstudoGit):**  Modelo inspirado de documentação
+ - **📥 [estudopython](https://github.com/pedroaugustorgg/estudopython):** Modelo inspirado de registro dos arquivos no repositório (com comentários de aprendizado)
