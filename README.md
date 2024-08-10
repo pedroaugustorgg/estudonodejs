@@ -4,7 +4,7 @@
 
 # Repositório para registro de estudo do Node.js
 ## ÍNDICE
- <a href="#section1" style="text-decoration:none;">**1.** 📄 Documentações</a>
+ <a href="#section1" style="text-decoration:none;">**1.** 📄 Documentações e material de apoio</a>
 
  <a href="#section2" style="text-decoration:none;">**2.** 📦 Pacotes utilizados no repositório via npm</a>
 
@@ -14,13 +14,14 @@
 
 <br>
 
-## <p id="section1"> 1. 📄 Documentações
+## <p id="section1"> 1. 📄 Documentações e material de apoio
 - **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/)
 - **npm** -> [Documentação (PT-BR)](https://rockcontent.com/br/blog/npm/)
+- **JSONPlaceholder** -> [{JSON} Placeholder](https://jsonplaceholder.typicode.com) (API _fake_ e confiável gratuita para testes e prototipagem)
 
 <br>
 
-## <p id="section2"> 2. 📦 Pacotes e _frameworks_ utilizados no repositório via NPM
+## <p id="section2"> 2. 📦 Pacotes, complementos e _frameworks_ utilizados no repositório via NPM
 ⚠️ **Observação:** Para usuários de Linux/MacOs, os pacotes precisam ser instalados com o comando "sudo" inserido antes dos comandos exemplificados aqui.
 - **[body-parser](https://www.npmjs.com/package/body-parser)** (intermediador/conversor de requisições) -> Utilizado para converter um _body_ da requisição de uma página HTML (um formulário por exemplo) em um JSON.
   - Instalação:
@@ -40,6 +41,11 @@
   - Instalação:
 
             npm install express-handlebars
+
+- **[node-fetch](https://www.npmjs.com/package/node-fetch)** (requisições de APIs) -> Complemento utilizado para realizar as requisições necessárias entre APIs utilizadas no código.
+  - Instalação:
+
+            npm install node-fetch
 
 - **[nodemon](https://nodemon.io)** [*opcional] (_auto restart server_) -> Utilizado para atualização automática em caso de alteração no código ou em arquivos rodando no servidor em tempo real.
   - Instalação:
