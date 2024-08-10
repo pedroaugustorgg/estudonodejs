@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando o Express-handlebars</title>
+</head>
+<body>
+    {{>menu}}
+    {{{body}}}
+</body>
+</html>
+
+<!--
+Linha 9: O {{>menu}} estará trazendo o conteúdo do menu.handlebars para dentro do index.handlebars
+Linha 10: O {{{body}}} irá chamar as páginas criadas na pasta 'views' nesta página 'index.handlebars'
+->

@@ -1,0 +1,16 @@
+<h1>Início da página</h1>
+
+{{#if estudandoNode}}
+    <p>Muito bem! Continue estudando sempre!</p>
+{{else}}
+    <p>Que pena! :(</p>
+{{/if}}
+
+<table>
+    {{#each dados}}
+        <tr>
+            <td>{{nome}}</td>
+            <td>{{idade}}</td>
+        </tr>
+    {{/each}}
+</table>
