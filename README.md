@@ -4,25 +4,23 @@
 
 # Repositório para registro de estudo do Node.js
 ## ÍNDICE
- <a href="#section1" style="text-decoration:none;">**1.** 📄 Documentação</a>
+ <a href="#section1" style="text-decoration:none;">**1.** 📄 Documentações</a>
 
  <a href="#section2" style="text-decoration:none;">**2.** 📦 Pacotes utilizados no repositório via npm</a>
 
- <a href="#section3" style="text-decoration:none;"> **3.** <img src="https://img.icons8.com/?size=100&id=l1CHBlD15w5K&format=png&color=000000" alt="teamgroup" width="25px"> _Frameworks_ (módulos) utilizados no repositório</a>
- 
- <a href="#section4" style="text-decoration:none;">**4.** ⏯️ Cursos que motivaram a criação do repositório</a>
+ <a href="#section3" style="text-decoration:none;">**3.** ⏯️ Cursos que motivaram a criação do repositório</a>
 
- <a href="#section5" style="text-decoration:none;">**5.** <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="25px"> Autor | Menção honrosa</a>
+ <a href="#section4" style="text-decoration:none;">**4.** <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="25px"> Autor | Menção honrosa</a>
 
 <br>
 
-## <p id="section1"> 1. 📄 Documentação
+## <p id="section1"> 1. 📄 Documentações
 - **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/)
 - **npm** -> [Documentação (PT-BR)](https://rockcontent.com/br/blog/npm/)
 
 <br>
 
-## <p id="section2"> 2. 📦 Pacotes utilizados no repositório via NPM
+## <p id="section2"> 2. 📦 Pacotes e _frameworks_ utilizados no repositório via NPM
 ⚠️ **Observação:** Para usuários de Linux/MacOs, os pacotes precisam ser instalados com o comando "sudo" inserido antes dos comandos exemplificados aqui.
 - **[nodemon](https://nodemon.io)** -> Utilizado para atualização automática em caso de alteração no código ou em arquivos rodando no servidor em tempo real.
 
@@ -34,24 +32,21 @@
 
             node --watch arquivo.js
 
-- **[BodyParser](https://www.npmjs.com/package/body-parser)** -> Utilizado para converter um _body_ da requisição de uma página HTML (um formulário por exemplo) em um JSON.
+- **[body-parser](https://www.npmjs.com/package/body-parser)** -> Utilizado para converter um _body_ da requisição de uma página HTML (um formulário por exemplo) em um JSON.
 
-<br>
-
-## <p id="section3"> 3. <img src="https://img.icons8.com/?size=100&id=l1CHBlD15w5K&format=png&color=000000" alt="teamgroup" width="25px"> _Frameworks_ (módulos) utilizados no repositório:
-- [expressjs](https://expressjs.com/) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.
+- **[expressjs](https://expressjs.com/)** -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.
 
       npm i express
 
 <br>
 
-## <p id="section4"> 4. ⏯️ Cursos que motivaram a criação do repositório
+## <p id="section3"> 3. ⏯️ Cursos que motivaram a criação do repositório
 - **Node.js (v12.12.0) Básico - 2020 (PT-BR)** -> [Playlist no YouTube](https://www.youtube.com/playlist?list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9)
 - **Como sair do ZERO em Node.js em apenas UMA aula (PT-BR)** -> [Rocketseat (YouTube)](https://www.youtube.com/watch?v=hHM-hr9q4mo)
 
 <br>
 
-## <p id="section5"> 5. <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="30px"> Autor | Menção honrosa
+## <p id="section4"> 4. <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="30px"> Autor | Menção honrosa
 
 |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/80770771? v=4" width=115><br><sub>Pedro Guedes</sub>](https://github.com/pedroaugustorgg) |
 | :---: |
