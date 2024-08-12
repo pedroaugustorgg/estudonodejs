@@ -4,20 +4,21 @@
 
 # Repositório para registro de estudo do Node.js
 ## ÍNDICE
- <a href="#section1" style="text-decoration:none;">**1.** 📄 Documentações e material de apoio</a>
+ <a href="#section1" style="text-decoration:none;">**1.** 📄 Documentações e materiais de apoio</a>
 
  <a href="#section2" style="text-decoration:none;">**2.** 📦 Pacotes utilizados no repositório via npm</a>
 
  <a href="#section3" style="text-decoration:none;">**3.** ⏯️ Cursos que motivaram a criação do repositório</a>
 
- <a href="#section4" style="text-decoration:none;">**4.** <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="25px"> Autor | Menção honrosa</a>
+ <a href="#section4" style="text-decoration:none;">**4.** <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="25px"> Autor | Menções honrosas</a>
 
 <br>
 
-## <p id="section1"> 1. 📄 Documentações e material de apoio
-- **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/)
-- **npm** -> [Documentação (PT-BR)](https://rockcontent.com/br/blog/npm/)
-- **JSONPlaceholder** -> [{JSON} Placeholder](https://jsonplaceholder.typicode.com) (API _fake_ e confiável gratuita para testes e prototipagem)
+## <p id="section1"> 1. 📄 Documentações e materiais de apoio
+- **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/) | Ferramenta que com capacidade de interpretar código JavaScript, de maneira bem similar ao navegador, e convertendo para linguagem de máquina.
+- **npm** -> [Documentação (PT-BR)](https://rockcontent.com/br/blog/npm/) | O Gerenciador de Pacotes do Node (Node Package Manager), uma runtime de javascript que permite utilizar a linguagem no _back-end_.
+- **{JSON} Placeholder** -> [Documentação (EN-US)](https://jsonplaceholder.typicode.com) | API _fake_ e confiável gratuita para testes e prototipagem
+- **Mockaroo** -> [Documentação (EN-US)](https://www.mockaroo.com/docs) | Ferramenta online onde é possível gerar rapidamente dados e teste realistas, personalizando os campos, o número de dados gerados e o formato desejado do documento final.
 
 <br>
 
@@ -32,10 +33,12 @@
 
             var bodyParser = require('body-parser')
 
-- **[expressjs](https://www.npmjs.com/package/express)** (Web Framework) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.
-  - Instalação:
+- **[expressjs](https://www.npmjs.com/package/express)** [*opcional] <s>(Web Framework) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.</s>
+  - 💡***Por que é opcional?** Porque atualmente (2024) não é o framework mais leve que existe na comunidade, tendo uma alternativa mais otimizada e atual que se chama _fastify_.
+    - **[fastify](https://www.npmjs.com/package/fastify)** (Web Framework) -> Utilizado para comunicação entre o backend e o frontend.
+    - Instalação:
 
-            npm i express
+              npm i fastify
 
 - **[express-handlebars](https://www.npmjs.com/package/express-handlebars)** (_templates/layouts_) -> Utilizado para manipulação da estrutura e modelo do _frontend_ através do _backend_.
   - Instalação:
@@ -47,13 +50,7 @@
 
             npm install node-fetch
 
-- **[nodemon](https://nodemon.io)** [*opcional] (_auto restart server_) -> Utilizado para atualização automática em caso de alteração no código ou em arquivos rodando no servidor em tempo real.
-  - Instalação:
-
-            npm install -g nodemon
-  - Executando o nodemon:
-
-            nodemon arquivo.js
+- **[nodemon](https://nodemon.io)** [*opcional] <s>(_auto restart server_) -> Utilizado para atualização automática em caso de alteração no código ou em arquivos rodando no servidor em tempo real.</s>
   - 💡***Por que é opcional?** Caso não queira utilizar o nodemon, existe uma **funcionalidade nativa do node** (a partir da v18.11.0) que faz o papel do nodemon, que é o "[--watch](https://cursos.alura.com.br/forum/topico-sugestao-node-watch-ao-inves-de-nodemon-262725)". Então um comando semelhante sem a utilização do nodemon ficaria assim:
 
             node --watch arquivo.js
@@ -66,7 +63,7 @@
 
 <br>
 
-## <p id="section4"> 4. <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="30px"> Autor | Menção honrosa
+## <p id="section4"> 4. <img src="https://img.icons8.com/?size=100&id=K7ebDTcbruY8&format=png&color=000000" alt="teamgroup" width="30px"> Autor e Menções honrosas
 
 |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/80770771? v=4" width=115><br><sub>Pedro Guedes</sub>](https://github.com/pedroaugustorgg) |
 | :---: |
