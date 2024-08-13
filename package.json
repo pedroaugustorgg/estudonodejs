@@ -4,6 +4,7 @@
     "express": "^4.19.2",
     "express-handlebars": "^8.0.1",
     "fastify": "^4.28.1",
+    "json-server": "^1.0.0-beta.1",
     "node-fetch": "^2.7.0"
   }
 }
