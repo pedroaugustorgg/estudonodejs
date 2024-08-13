@@ -17,7 +17,8 @@
 ## <p id="section1"> 1. 📄 Documentações e materiais de apoio
 - **Node.js** -> [Documentação (EN-US)](https://nodejs.org/docs/latest/api/) | Ferramenta que com capacidade de interpretar código JavaScript, de maneira bem similar ao navegador, e convertendo para linguagem de máquina.
 - **npm** -> [Documentação (PT-BR)](https://rockcontent.com/br/blog/npm/) | O Gerenciador de Pacotes do Node (Node Package Manager), uma runtime de javascript que permite utilizar a linguagem no _back-end_.
-- **{JSON} Placeholder** -> [Documentação (EN-US)](https://jsonplaceholder.typicode.com) | API _fake_ e confiável gratuita para testes e prototipagem
+- **{JSON} Placeholder** -> [Documentação (EN-US)](https://jsonplaceholder.typicode.com) | API _fake_ e confiável gratuita para testes e prototipagem.
+- **Thunder Client** -> [Documentação (EN-US)](https://docs.thunderclient.com) | Uma extensão para o Visual Studio Code que simplifica o teste de APIs e serviços web. Com ele, pode-se realizar chamadas HTTP diretamente no editor de código e realizar testes e2e, sem a necessidade de utilizar ferramentas externas.
 - **Mockaroo** -> [Documentação (EN-US)](https://www.mockaroo.com/docs) | Ferramenta online onde é possível gerar rapidamente dados e teste realistas, personalizando os campos, o número de dados gerados e o formato desejado do documento final.
 
 <br>
@@ -34,11 +35,14 @@
             var bodyParser = require('body-parser')
 
 - **[expressjs](https://www.npmjs.com/package/express)** [*opcional] <s>(Web Framework) -> Utilizado para aproveitar recursos disponíveis dentro do repositório durante o aprendizado.</s>
-  - 💡***Por que é opcional?** Porque atualmente (2024) não é o framework mais leve que existe na comunidade, tendo uma alternativa mais otimizada e atual que se chama _fastify_.
+  - 💡***Por que é opcional?** Porque atualmente (2024) não é o framework mais leve que existe na comunidade, tendo uma alternativa mais otimizada que se chama _fastify_.
     - **[fastify](https://www.npmjs.com/package/fastify)** (Web Framework) -> Utilizado para comunicação entre o backend e o frontend.
     - Instalação:
 
               npm i fastify
+    - Importando _framework_ (dentro do código):
+
+            import { fastify } from 'fastify'
 
 - **[express-handlebars](https://www.npmjs.com/package/express-handlebars)** (_templates/layouts_) -> Utilizado para manipulação da estrutura e modelo do _frontend_ através do _backend_.
   - Instalação:
@@ -54,6 +58,11 @@
   - 💡***Por que é opcional?** Caso não queira utilizar o nodemon, existe uma **funcionalidade nativa do node** (a partir da v18.11.0) que faz o papel do nodemon, que é o "[--watch](https://cursos.alura.com.br/forum/topico-sugestao-node-watch-ao-inves-de-nodemon-262725)". Então um comando semelhante sem a utilização do nodemon ficaria assim:
 
             node --watch arquivo.js
+
+- **[json-server](https://www.npmjs.com/package/json-server)** (Simulador de _backend_) -> Serve para economizar tempo e facilitar o processo de teste das aplicações.
+  - Instalação:
+
+            npm install json-server
 
 <br>
 
