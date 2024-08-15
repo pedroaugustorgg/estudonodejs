@@ -68,6 +68,7 @@
 
 ## <p id="section3"> 3. ⏯️ Cursos que motivaram a criação do repositório
 - **Node.js (v12.12.0) Básico - 2020 (PT-BR)** -> [Playlist no YouTube](https://www.youtube.com/playlist?list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9)
+- **Node.js e MySQL - 2023 (PT-BR)** -> [Playlist no YouTube](https://www.youtube.com/playlist?list=PLWXw8Gu52TRI5NJmexwA9qco33goFxbHK)
 - **Como sair do ZERO em Node.js em apenas UMA aula (PT-BR)** -> [Rocketseat (YouTube)](https://www.youtube.com/watch?v=hHM-hr9q4mo)
 
 <br>
