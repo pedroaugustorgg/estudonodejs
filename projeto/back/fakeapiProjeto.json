@@ -1,0 +1,28 @@
+{
+  "alunos": [
+    {
+      "id": "4cb5",
+      "nome": "Zé Tiringa",
+      "idade": 42,
+      "nivel": 1
+    },
+    {
+      "id": "970b",
+      "nome": "Chico do Apito",
+      "idade": 53,
+      "nivel": 6
+    },
+    {
+      "id": "846a",
+      "nome": "Helena da Roça",
+      "idade": 14,
+      "nivel": 4
+    },
+    {
+      "id": "759t",
+      "nome": "Irene Chagas",
+      "idade": 62,
+      "nivel": 3
+    }
+  ]
+}

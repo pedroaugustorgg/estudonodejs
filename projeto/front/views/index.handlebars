@@ -1,1 +1,32 @@
-<h1>Olá!!!</h1>
+{{!-- Formulário --}}
+<form action="">
+    <img src="images/monitor_icon.png">
+
+    <input type="text" placeholder="Nome" class="form-control">
+    <input type="text" placeholder="Idade" class="form-control">
+    <input type="text" placeholder="Nível" class="form-control">
+    <input type="submit" value="Cadastrar" class="btn btn-primary">
+</form>
+
+{{!-- Tabela --}}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Nível</th>
+            <th>Selecionar</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {{#each data}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{age}}</td>
+            <td>{{level}}</td>
+            <td><a href="selecionar/{{id}}">Selecionar</a></td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
