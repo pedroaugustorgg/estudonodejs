@@ -21,6 +21,8 @@
 - **Thunder Client** -> [Documentação (EN-US)](https://docs.thunderclient.com) | Uma extensão para o Visual Studio Code que simplifica o teste de APIs e serviços web. Com ele, pode-se realizar chamadas HTTP diretamente no editor de código e realizar testes e2e, sem a necessidade de utilizar ferramentas externas.
 - **Mockaroo** -> [Documentação (EN-US)](https://www.mockaroo.com/docs) | Ferramenta online onde é possível gerar rapidamente dados e teste realistas, personalizando os campos, o número de dados gerados e o formato desejado do documento final.
 
+- **PITCH** -> [Documentação (PT-BR)](https://www.tabnews.com.br/bgabraga/pitch-ferramenta-para-gerar-o-arquivo-de-json-server-com-dados-estruturados-e-de-maneira-mais-facil) | Ferramenta para gerar arquivos JSON server estruturados
+
 <br>
 
 ## <p id="section2"> 2. 📦 Pacotes, complementos e _frameworks_ utilizados no repositório via NPM
